@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>   
+     <div class="main">
+        <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform </p>
+            
+        <div class="register">
+            
+            <form id="register" method="post">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="Name"  id="name" placeholder="Enter your name">
+                <br><br>
+                <label for="Email">Email</label>
+                <br>
+                <input type="email" name="Email" id="name" placeholder="Enter your email">
+                <br><br>
+                <label for="Age">Age(Optional)</label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="Age">
+                <br><br>
+                Which option best describes your current role select current role?<br>
+                <select id="dropdown" name="role" class="form-control required">
+                <option disabled selected value="">Select current role</optio>
+                <option value="Student">Student</option>
+                <option value="Full Time job">Full Time job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to Say">Prefer not to say </option>
+                <option value="Other">Other</option>
+               </select>
+               <br><br>
+               Would you recommend freeCodeCamp to a friend?
+            
+               <input type="radio" name="recommend">Definitely <br>
+               <input type="radio" name="recommend">Maybe <br>
+               <input type="radio" name="recommend">Not Sure 
+               <br><br>
+             What is your favourite feature of freeCodeCamp?
+             <select id="dropdown" name="feature" class="form-control required">
+                <option disabled selected value>Select an option </option>
+                <option value="Challenger">Challenger</0ption>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open</option>
+               </select>
+               <br><br>
+               would you like to see improved? <br> (Check all that apply)  <br>
+               <input type="checkbox" name="improed" id="improed">Front-end project <br>
+               <input type="checkbox" name="improed" id="improed">Back-end project <br>
+               <input type="checkbox" name="improed" id="improed">Data Visualization <br>
+               <input type="checkbox" name="improed" id="improed">Challenges <br>
+               <input type="checkbox" name="improed" id="improed">Open Source community <br>
+               <input type="checkbox" name="improed" id="improed">Gitter help room <br>
+               <input type="checkbox" name="improed" id="improed">Video <br>
+               <input type="checkbox" name="improed" id="improed">City Meetups <br>
+               <input type="checkbox" name="improed" id="improed">Wiki <br>
+               <input type="checkbox" name="improed" id="improed">Forum <br>
+               <input type="checkbox" name="improed" id="improed">Additional Courses 
+            <br><br>
+            Any Comment or Suggestion?
+            <textarea name="Comment" id="comment" cols="30" rows="5" placeholder="Enter your comment here..."></textarea>
+
+
+            <br><br>
+            <input type="submit" value="submit" name="submit" id="submit">
+               
+            
+            
+    
+    
+            
+            
+            
+            
+
+            </form>
+        </div>+\
+    </div>
+    
+</body>
+</html>
